@@ -3,7 +3,6 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AuthProvider } from '../contexts/AuthContext';
-import { useFrameworkReady } from '../hooks/useFrameworkReady'
 import { useFrameworkReady } from '@/hooks/useFrameworkReady';
 
 const queryClient = new QueryClient({
